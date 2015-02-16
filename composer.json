@@ -1,0 +1,8 @@
+{
+    "name": "rhildred/cloudflare",
+    "autoload": {
+        "psr-0": {
+            "": ""
+        }
+    }
+}
