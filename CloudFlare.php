@@ -16,7 +16,7 @@ class CloudFlare{
         $oResult = json_decode(curl_exec($ch));
         //close connection
         curl_close($ch);
-		return($oResult);
+		return($oResult->result == "success");
 
 	}
 
